@@ -914,6 +914,7 @@ class KallsymsFinder:
                     position -= offset_byte_size
                 
                 position -= self.num_symbols * offset_byte_size
+                position += 4
                 
             else:
                 
